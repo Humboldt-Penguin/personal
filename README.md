@@ -12,4 +12,12 @@ In the pro version (or 14 day free trial which I keep making new accounts for), 
 * [Post your current Custom CSS (with comments)!](https://talk.dynalist.io/t/post-your-current-custom-css-with-comments/3126)
 * [Dynalist Themes & Skins](https://userstyles.org/styles/browse/dynalist)
 
-Conveniently, you can paste the CSS into a document in dynalist so if you don't want to use a certain feature (e.g. `/* highlight */`), simply collapse that bullet point, select all by pressing ctrl+A a few times, and then paste it into the custom CSS menu again. That way you've made the change without deleting any information.
+Conveniently, you can paste the CSS into a document in dynalist so if you don't want to use a certain feature (e.g. `/* highlight */`), simply collapse that bullet point, select all by pressing ctrl+A a few times, and then paste it into the custom CSS menu again. That way you've made the change without deleting any information. For example, let's say this is my current CSS that I copy-paste straight into the "Custom CSS" textbox:
+
+![](https://i.imgur.com/ZukYKmB.png)
+
+If I want to disable the "highlight" feature, I simply collapse it like so:
+
+![](https://i.imgur.com/DTrvPcf.png)
+
+so when I select and copy it, it's not copying the collapsed part. This way you can disable features without having a bunch of different CSS files.
