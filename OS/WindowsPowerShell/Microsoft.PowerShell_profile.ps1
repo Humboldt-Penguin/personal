@@ -333,6 +333,9 @@ function exportenv {
         $comment = "# $comment`r`n`r`n"
     }
 	
+	# Remove prefix (added by default to last line)
+	$output = $output | Select-Object -SkipLast 1
+
 	# Concatenate (THIS TOOK ME A FUCKING HOUR FUCK POWERSHELL GARBAGE FUCKING LANGAUGE)
 	$output = $comment + ($output | Out-String)
 	
